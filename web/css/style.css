@@ -1,0 +1,61 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: azure;
+}
+.container {
+    width: 90%;
+    margin: 0 auto;
+    background-color: rgb(26, 114, 155);
+}
+header {
+    background-image: url(../img/header.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150px;
+}
+#principal {
+}
+footer {
+    background-color: rgb(201, 67, 30);
+    color: rgb(250, 249, 249);
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 20px;
+}
+nav {
+    width: 20%;
+    float: left;
+}
+#content {
+    width: 80%;
+    float: right;
+    background-color: rgb(166, 226, 246);
+}
+.cb {
+    clear: both;
+}
+nav ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+nav ul li {
+   text-align: center;
+   color: white;
+   font-weight: bold;
+   padding: 16px 0;
+   border: solid 2px rgb(238, 230, 216);
+}
+nav ul li:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(166, 226, 246); 
+}
+a {
+    text-decoration: none;
+}
+#home {
+    text-align: center;
+    padding: 90px 0;
+}
